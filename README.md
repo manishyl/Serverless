@@ -1,0 +1,2 @@
+# Serverless
+APIGW->Lambda-> DDB
