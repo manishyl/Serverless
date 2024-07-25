@@ -36,7 +36,7 @@ APIGW->Lambda-> DDB
 }
 
 2. Lambda Function
-
+```
 from __future__ import print_function
 import boto3
 import json
@@ -69,6 +69,7 @@ def lambda_handler(event, context):
         return operations[operation](event.get('payload'))
     else:
         raise ValueError('Unrecognized operation "{}"'.format(operation))
+```
 
 Test:
 {
