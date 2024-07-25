@@ -36,14 +36,11 @@ APIGW->Lambda-> DDB
 }
 
 2. Lambda Function
-   from __future__ import print_function
 
+from __future__ import print_function
 import boto3
 import json
-
 print('Loading function')
-
-
 def lambda_handler(event, context):
     '''Provide an event that contains the following keys:
 
