@@ -37,7 +37,7 @@ APIGW->Lambda-> DDB
 }
 ```
 
-3. Lambda Function
+2. Lambda Function
 ```
 from __future__ import print_function
 import boto3
