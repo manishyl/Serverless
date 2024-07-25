@@ -6,6 +6,7 @@ APIGW->Lambda-> DDB
 
 
 1. Lambda Role - to access DynamoDB abd CloudWatch logs
+   ```
    {
 "Version": "2012-10-17",
 "Statement": [
@@ -34,8 +35,9 @@ APIGW->Lambda-> DDB
 }
 ]
 }
+```
 
-2. Lambda Function
+3. Lambda Function
 ```
 from __future__ import print_function
 import boto3
